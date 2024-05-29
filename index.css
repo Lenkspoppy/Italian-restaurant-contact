@@ -1,0 +1,455 @@
+body{
+    margin: 0;
+    
+   
+    
+    
+
+    
+
+   
+    
+    
+}
+
+
+
+
+
+
+
+
+
+.header{
+    background-color: white;
+    height: 75px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+    position: relative;
+    left: 0;
+    right: 0;
+    
+    
+    
+    
+}
+
+.header a{
+    text-decoration: none;
+    color: hsl(0, 0%, 0%);
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+    
+    
+   
+}
+
+.header a:hover{
+    color: orangered;
+} 
+
+.left-section-header{
+    display: flex ;
+    flex-direction: row;
+    margin-left: 100px;
+ 
+   
+   
+
+}
+
+.logo-image{
+    
+    scale: 1;
+    width: 70px;
+    
+    
+}
+
+.right-section-header{
+    display: flex;
+    flex-direction: row;
+    margin-right: 25px;
+    justify-content: end;
+    flex: 1;
+     
+}
+
+
+.links-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    flex: 1;
+    margin-right: 20px;
+}
+
+.links-container div{
+    margin-right: 30px;
+}
+
+.button-container{
+    width:200px;
+    justify-content: end;
+    align-items:center;
+
+}
+
+.reservation{
+    background-color: #ff770f;
+    color: white;
+    height: 47px;
+    width: 156px;
+    border: none;
+    border-radius: 23.5px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    padding: 10px;
+    transition: 0.3s;
+
+}
+
+.on-background{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(images/backgroundimg.jpg);
+    background-size: 1520px 720px;
+    height: 500px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+    
+}
+
+.on-background h2{
+    font-family: "Berkshire Swash", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 43px;
+    margin: 0;
+    color: white;
+    padding: 10px;
+    margin-left: 80px;
+}
+
+.on-background h1{
+    font-family: "Berkshire Swash", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 64px;
+    margin: 0;
+    color: white;
+    padding: 10px;
+    margin-left: 80px;
+    margin-bottom: 40px;
+}
+
+.map-section{
+    display: flex;
+    height: 600px;
+    flex-direction: row;
+    width: 1149px;
+    margin-top: 120px; 
+    padding: 0 100px;
+    justify-content: space-between;
+    margin-bottom: 160px;
+    
+
+}
+
+.map{
+    border-radius: 5px;
+    filter: saturate(0);
+}
+
+.map:hover{
+    filter: saturate(100%);
+}
+
+.hours{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527) ,rgba(0, 0, 0, 0.5)) ,url(images/food-table-meet.jpg);
+    height: 500px;
+    width: 380px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    
+}
+
+.hours h2{
+    font-family: "Berkshire Swash", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 43px;
+    margin: 0;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.hours p{
+    margin: 0;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: medium;
+    font-style: normal;
+    color: white;
+   
+}
+
+.hours-inside{
+    margin-top: 300px;
+}
+
+.location-section{
+    display: flex;
+   justify-content: space-between;
+    height: 600px;
+    width: 1100px;
+    padding: 0 100px;
+    margin-top: 100px;
+}
+
+.location-left-section{
+    margin-top: 80px;
+    width: 500px;
+}
+
+.location-section h3{
+    margin: 0;
+    font-size: 28px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+.location-section h4{
+    font-family: "Berkshire Swash", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    margin: 0;
+    
+    margin-bottom: 20px;
+}
+
+.fa-location-dot{
+    color: #ff770f;
+}
+
+.last-icons{
+    display: flex;
+    flex-direction: row;
+    width: 240px;
+    justify-content: space-between;
+    margin-top: 40px;
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.fa-yelp{
+    background-color: #ff770f;
+    padding: 10px; 
+    border-radius: 50%;
+    
+}
+
+.fa-facebook-f{
+    background-color: #ff770f;
+    padding: 10px; 
+    border-radius: 50%;
+ 
+}
+
+.fa-twitter{
+    background-color: #ff770f;
+    padding: 10px; 
+    border-radius: 50%;
+}
+
+.fa-google-plus-g{
+    background-color: #ff770f;
+    padding: 10px; 
+    border-radius: 50%;
+
+}
+
+.location-right-section{
+    padding: 40px;
+    background-color: whitesmoke;
+}
+
+.location-right-section h3{
+    margin: 0;
+    font-size: 28px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+.location-right-section p{
+    margin: 0;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    color: #313131;
+    font-style: normal;
+    margin-bottom: 40px;
+}
+
+.input-section{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.input-section input{
+    height: 43px;
+    border: 1px solid #6463634b;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    width: 500px;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    color: #313131;
+    font-style: normal;
+    padding-left: 20px;
+    
+    
+}
+
+.input-section input::placeholder{
+    margin: 0;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    color: #313131;
+    font-style: normal;
+    padding-left: 4px;
+}
+
+.input-section input:focus{
+    outline: 0.8px dotted  #555555a2;
+    outline-offset: 0px;
+    border: none;
+}
+
+.textarea{
+    border: 1px solid #6463634b;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    color: #313131;
+    font-style: normal;
+    padding-left: 20px;
+    margin-bottom: 40px;
+
+}
+
+.textarea:focus{
+    outline: 0.8px dotted #555555a2;
+    outline-offset: 0px;
+    border: none;
+}
+
+.textarea::placeholder{
+    padding-left: 5px;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    color: #313131;
+}
+
+.last-button{
+    background-color: #ff770f;
+    color: white;
+    height: 47px;
+    width: 180px;
+    border: none;
+    border-radius: 23.5px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.footer{
+    background-image: url(images/menu-image2.jpg);
+    height: 350px;
+    object-fit:cover;
+    margin-top: 50px;
+
+    
+    
+}
+
+.footer-text{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-top: 80px;
+
+   
+
+
+}
+
+.footer-text h2{
+ margin: 0;
+ margin-bottom: 60px;
+ color: white;
+ font-family: "Berkshire Swash", serif;
+ font-style: normal;
+ font-size: 43px;
+ height: 55px;
+ font-size: 1200;
+ font-weight: lighter;
+ 
+}
+
+.footer-text p{
+    margin: 0;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: medium;
+    font-style: normal;
+    margin-bottom: 20px;
+    color: white;
+    margin-top: -10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
